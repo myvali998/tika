@@ -26,7 +26,7 @@
     <groupId>org.apache</groupId>
     <artifactId>apache</artifactId>
     <version>24</version> <!-- fails with 22 and 23 in tika-eval-core -->
-    <relativePath />
+    <relativePath/>
   </parent>
 
   <groupId>org.apache.tika</groupId>
@@ -136,7 +136,7 @@
       <organization>NASA Jet Propulsion Laboratory</organization>
       <organizationUrl>http://www.jpl.nasa.gov</organizationUrl>
       <timezone>-8</timezone>
-      <properties />
+      <properties/>
       <roles>
         <role>committer</role>
       </roles>
@@ -146,7 +146,7 @@
       <id>mikemccand</id>
       <email>mikemccand@apache.org</email>
       <organization>IBM</organization>
-      <properties />
+      <properties/>
       <roles>
         <role>committer</role>
       </roles>
@@ -329,7 +329,7 @@
     <junit4.version>4.13.2</junit4.version>
     <junit5.version>5.8.2</junit5.version>
     <juniversalchardet.version>1.0.3</juniversalchardet.version>
-    <junrar.version>7.4.0</junrar.version>
+    <junrar.version>7.4.1</junrar.version>
     <libpst.version>0.9.3</libpst.version>
     <log4j2.version>2.17.0</log4j2.version>
     <lombok.version>1.18.20</lombok.version>
@@ -748,7 +748,7 @@
             <id>enforce-maven</id>
             <configuration>
               <rules>
-                <dependencyConvergence />
+                <dependencyConvergence/>
                 <requireMavenVersion>
                   <version>3.5</version>
                 </requireMavenVersion>
